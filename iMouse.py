@@ -58,6 +58,9 @@ def getPosition():
 def about():
     win32api.MessageBox(0, 'Made with ♥ and ☕ by fkhrrz@1rdaystudio.com', 'About')
 
+def hotkeyWindow():
+    win32api.MessageBox(0, 'Made with ♥ and ☕ by fkhrrz@1rdaystudio.com', 'About')
+
 def run():
     global runFlag
     if runFlag:
@@ -81,6 +84,7 @@ toolbarFile.add_command(label='Export')
 toolbarFile.add_separator()
 toolbarFile.add_command(label='Exit', command=app.destroy)
 toolbar.add_cascade(label='File', menu=toolbarFile)
+toolbar.add_cascade(label='Hotkey', command=hotkeyWindow)
 toolbar.add_cascade(label='About', command=about)
 
 # Command List
