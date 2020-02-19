@@ -2,7 +2,7 @@ from tkinter import *
 from uuid import getnode as get_mac
 import re
 import time
-import pywin32_system32, win32api, win32con
+import win32api, win32con
 
 runFlag = False
 
