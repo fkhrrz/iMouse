@@ -1,2 +1,2 @@
 # iMouse
-iMouse
+Auto click for windows
